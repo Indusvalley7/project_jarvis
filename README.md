@@ -43,8 +43,8 @@ It's designed to work as a personal AI assistant accessible via **Telegram**, wi
                     └──────────┬───────────┬───────────────────┘
                                │           │
                     ┌──────────▼──┐  ┌─────▼─────┐  ┌─────────┐
-                    │  PostgreSQL │  │   Qdrant   │  │   n8n   │
-                    │  (6 tables) │  │ (3 colls)  │  │(7 flows)│
+                    │  PostgreSQL │  │   Qdrant  │  │   n8n   │
+                    │  (6 tables) │  │ (3 colls) │  │(7 flows)│
                     └─────────────┘  └───────────┘  └─────────┘
 ```
 
