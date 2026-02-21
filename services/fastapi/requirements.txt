@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+qdrant-client
+fastembed
+asyncpg
+databases[asyncpg]
+pytest
+pytest-asyncio
+respx

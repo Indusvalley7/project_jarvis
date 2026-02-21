@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+
+# Data volumes (managed by Docker)
+app_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
