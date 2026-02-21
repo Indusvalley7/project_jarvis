@@ -343,11 +343,6 @@ The tool endpoints (`/tools/reminder_create`, `/tools/memory_write`, `/rag/inges
 
 ---
 
-## License
-
-MIT
-
----
 
 <p align="center">
   Built with ⚡ by <a href="https://github.com/Indusvalley7">Indu</a>
