@@ -31,20 +31,20 @@ It's designed to work as a personal AI assistant accessible via **Telegram**, wi
 
 ```
 ┌─────────────┐     ┌──────────────────────────────────────────┐
-│  Telegram   │────▶│           FastAPI Orchestrator            │
+│  Telegram   │────▶│           FastAPI Orchestrator           │
 │    Bot      │◀────│                                          │
-└─────────────┘     │  ┌─────────┐  ┌─────────┐  ┌─────────┐  │
-                    │  │Classifier│─▶│ Planner │─▶│Researcher│  │
-┌─────────────┐     │  └─────────┘  └─────────┘  └────┬────┘  │
+└─────────────┘     │  ┌─────────┐  ┌─────────┐  ┌─────────┐   │
+                    │  │Classifier│─▶│ Planner │─▶│Researcher│ │
+┌─────────────┐     │  └─────────┘  └─────────┘  └────┬────┘   │
 │  Dashboard  │────▶│                                   │      │
-│  (Web UI)   │     │  ┌─────────┐  ┌──────────┐  ┌───▼────┐  │
+│  (Web UI)   │     │  ┌─────────┐  ┌──────────┐  ┌───▼────┐   │
 └─────────────┘     │  │  Critic │◀─│Tool Router│◀─│Executor│  │
-                    │  └─────────┘  └──────────┘  └────────┘  │
+                    │  └─────────┘  └──────────┘  └────────┘   │
                     └──────────┬───────────┬───────────────────┘
                                │           │
                     ┌──────────▼──┐  ┌─────▼─────┐  ┌─────────┐
-                    │  PostgreSQL  │  │   Qdrant   │  │   n8n   │
-                    │  (6 tables)  │  │ (3 colls)  │  │(7 flows)│
+                    │  PostgreSQL │  │   Qdrant   │  │   n8n   │
+                    │  (6 tables) │  │ (3 colls)  │  │(7 flows)│
                     └─────────────┘  └───────────┘  └─────────┘
 ```
 
@@ -350,5 +350,5 @@ MIT
 ---
 
 <p align="center">
-  Built with ⚡ by <a href="https://github.com/yourusername">Indu</a>
+  Built with ⚡ by <a href="https://github.com/Indusvalley7">Indu</a>
 </p>
