@@ -330,6 +330,11 @@ All configuration is via environment variables (`.env` file):
 | `POSTGRES_DB` | `jarvis_db` | Database name |
 
 ---
+<img width="2906" height="1598" alt="image" src="https://github.com/user-attachments/assets/408383ad-e965-403a-b197-7097e6a058f2" />
+
+<img width="2938" height="1582" alt="image" src="https://github.com/user-attachments/assets/9e0006ec-34cc-484f-b94c-3f96f65a15d2" />
+
+---
 
 ## Performance Note
 
